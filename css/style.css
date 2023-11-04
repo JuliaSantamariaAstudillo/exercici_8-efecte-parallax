@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: #89a66f;
+}
+
+/* Barra de navegació */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header {
+    margin: auto;
+    width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #9cbb80;
+    color: #5e403b;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #89a66f;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+/* Efecte parallax */
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    padding: 32px;
+}
+
+.center {
+    text-align: center;
+}
+
+.black {
+    background-color: #5e403b;
+    margin-top: 60px;
+}
+
+.parallax {
+    height: 500px;
+    background-image: url('img/robots.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    width: 40%;
+    padding: 20px;
+    float: left;
+
+}
+
+/* Taula */
+.content-table thead tr {
+    background-color: #89a66f;
+    color: #5e403b;
+    text-align: left;
+    font-stretch: expanded;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content-table thead tr {
+    background-color: #89a66f;
+    color: #5e403b;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table td {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
